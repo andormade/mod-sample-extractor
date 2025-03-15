@@ -1,0 +1,26 @@
+{
+  "name": "mod-sample-extractor",
+  "version": "1.0.0",
+  "description": "Extracts PCM samples from MOD files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mod-sample-extractor": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andormade/mod-sample-extractor.git"
+  },
+  "keywords": [
+    "mod",
+    "pcm"
+  ],
+  "author": "Andor Polgar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andormade/mod-sample-extractor/issues"
+  },
+  "homepage": "https://github.com/andormade/mod-sample-extractor#readme"
+}

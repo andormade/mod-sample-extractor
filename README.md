@@ -23,3 +23,33 @@ To install the tool, run:
 ```bash
 npm install -g mod-sample-extractor
 ```
+
+## Alternate Installation
+
+In case it has been 10 years and the npm package repository ceased to exist, you can still clone this repository and run the tool manually:
+
+1. Clone the Repository:
+  ```bash
+  git clone https://github.com/andormade/mod-sample-extractor.git
+  cd mod-sample-extractor
+  ```
+
+2. Install 
+  ```bash
+  npm install -g
+  ```
+
+## Usage
+
+Once installed, you can run the tool from anywhere:
+```bash
+mod-sample-extractor path/to/yourfile.mod
+```
+The tool reads the provided MOD file, parses the header and sample descriptors, and then extracts the PCM sample data into separate files in the current directory.
+
+## PCM Specification
+
+Each PCM file exported by the tool has the following characteristics:
+- Format: Raw PCM data (no header or metadata)
+- Bit Depth: 8-bit (signed)
+- Channel: Mono
